@@ -13,33 +13,15 @@
 * **Kjøretid**
     * En funksjon av problemstørrelsen
 ##### Kjøretider - Hastighet
-```katex
-Constant:1
-```
-```katex
-Logaritmic:lgn
-```
-```katex
-Squared:\sqrt{n}
-```
-```katex
-Linear: n
-```
-```katex
-Loglinear: nlgn
-```
-```katex
-Quadratic:n^2
-```
-```katex
-Cubic:n^3
-```
-```katex
-Exponential:2^n
-```
-```katex
-Factorial:n!
-```
+- Constant:1
+- Logaritmic:lgn
+- Squared:\sqrt{n}
+- Linear: n
+- Loglinear: nlgn
+- Quadratic:n^2
+- Cubic:n^3
+- Exponential:2^n
+- Factorial:n!
 * **Løkkeinvariant**
     * Invariant: Egenskap som ikke endres
     * Initialisering: Invariant er sann ved start
@@ -50,7 +32,7 @@ Factorial:n!
         * Vis at løkka stopper
 ### Insertion Sort
 * Effektiv for et lite antall elementer
-* Kjøretid: θ(`$n^2$`)
+* Kjøretid: θ(`n^2`)
 ### Asymptotisk notasjon
 Vi ønsker å angi så tette grenser som mulig når vi beskriver kjøretiden til en algoritme.  Konstanter og lavere ordens ledd droppes.
 ```
