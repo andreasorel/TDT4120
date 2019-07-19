@@ -12,16 +12,16 @@
     * Lagringsplass som kreves for en instans
 * **Kjøretid**
     * En funksjon av problemstørrelsen
-##### Kjøretider - Hastighet
-- Constant:1
-- Logaritmic:lgn
-- Squared:\sqrt{n}
-- Linear: n
-- Loglinear: nlgn
-- Quadratic:n^2
-- Cubic:n^3
-- Exponential:2^n
-- Factorial:n!
+* **Kjøretider - Hastighet**
+    * Constant:1
+    * Logaritmic:lgn
+    * Squared:\sqrt{n}
+    * Linear: n
+    * Loglinear: nlgn
+    * Quadratic:n^2
+    * Cubic:n^3
+    * Exponential:2^n
+    *Factorial:n!
 * **Løkkeinvariant**
     * Invariant: Egenskap som ikke endres
     * Initialisering: Invariant er sann ved start
