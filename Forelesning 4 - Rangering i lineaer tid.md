@@ -1,7 +1,7 @@
 # Forelesning 4 - Rangering i lineær tid
 
 #### Sammenligningsbasert sortering har en worst case på 𝝮(nlgn) fordi:
-* Alle elementer er distinkte (ai!= aj)
+* Alle elementer er distinkte (ai != aj)
 * Vi bruker et *desition tree* til å representere sammenligningen mellom elementene som sorteres ved hjelp av en sammenligningsbasert sorteringsalgoritme. Det ser slik ut:
 
 <img src="https://i.imgur.com/vAoxfab.png" width="400"/>
