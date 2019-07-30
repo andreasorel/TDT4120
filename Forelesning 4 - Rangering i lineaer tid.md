@@ -32,6 +32,6 @@ Her kan vi faktisk oppnå lineær kjøretid som average case, om vi går ut i fr
 
 ### Selektering i lineær tid
 #### Randomized SELECT
-Som Randomized-Quicksort bruker algoritmen Randomized-partition, men i motsetning til Randomized-Quicksort som prosesserer begge sider av pivot, jobber Randomized-SELECT kun på en side. Denne forskjellen spiller en rolle på kjøretiden (QC AC: Th(nlgn)). Randomized-SELECT har en lineær kjøretid om vi har distinkte elementer. Worst case er Th(n^2) og vi oppnår dette om vi er uheldig med pivot-elementet vi partisjonerer rundt.
+Som Randomized-Quicksort bruker algoritmen Randomized-partition, men i motsetning til Randomized-Quicksort som prosesserer begge sider av pivot, jobber Randomized-SELECT kun på en side. Denne forskjellen spiller en rolle på kjøretiden (R-QS AC: Th(nlgn)). Randomized-SELECT har en lineær kjøretid om vi har distinkte elementer. Worst case er Th(n^2) og vi oppnår dette om vi er uheldig med pivot-elementet vi partisjonerer rundt.
 #### SELECT
 Her tar vi inn pivot som input og kan dermed garanterere en god partisjonering. Worst case O(n). 
