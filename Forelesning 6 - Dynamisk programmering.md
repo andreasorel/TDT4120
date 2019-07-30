@@ -17,7 +17,7 @@ Vi kan kutte en stav med lengde ni 2^(n-1) deler ettersom vi kan velge om vi vil
 
 <img src="https://i.imgur.com/ba46CLx.png" width="300" />
 
-Her vi en optimal løsning være å kutte staven i 2 deler.
+Her vi en optimal løsning - kutt staven i 2 deler.
 
 #### Optimal substruktur
 En optimal løsning er bygget opp av flere optimale løsninger til relaterte delproblemer.
