@@ -6,7 +6,7 @@
 
 <img src="https://i.imgur.com/vAoxfab.png" width="400"/>
 
-Fordi hver av de n! permutasjonene av input dukker opp som noder, har vi n!=<k. Siden et binærtre med høyde h ikke kan ha mer enn 2^h noder, har vi: n! =<k=<2^h, som impliserer h>=lg(n!) -> 𝝮(nlgn).
+Fordi hver av de n! permutasjonene av input dukker opp som noder, har vi n! =< k. Siden et binærtre med høyde h ikke kan ha mer enn 2^h noder, har vi: n! =< k =< 2^h, som impliserer h >= lg(n!) -> 𝝮(nlgn).
 
 En stabil sorteringsalgoritme sorterer to like tall i output-arrayet etter det tallet som dukker opp først i input-arrayet.
 Eksempel: 2i:2:j => <2i,2j>
