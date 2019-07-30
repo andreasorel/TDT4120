@@ -42,4 +42,4 @@ Om en hashtabell/stakk/kø blir full ønsker vi å allokere mye minne om gangen,
 #### Formel
 <img src="https://imgur.com/pvuxXVt.jpg" width="200"/>
 
-Ekstra arbeid per insetting: θ(`$1$`)
+Ekstra arbeid per insetting: θ(`1`)
