@@ -85,3 +85,11 @@ Skriver ut key-verdien til subtrærne før key-verdien til rotnoden.
 
 #### Søk i binærtre
 Tar O(h) tid der h=høyden på treet.
+
+#### Insetting og sletting
+* TREE-INSERT
+* TREE-DELETE
+    * 3 alternativer
+        * Hvis z ikke har noen barn så fjerner vi noden ved å endre foreldrenoden til å erstatte z med NIL som sitt barn.
+        * Hvis z har kun ett barn så løfter vi barnet slik at det tar z's posisjon i treet ved å endre z's foreldrenode til å erstatte z med barnet til z.
+        * Hvis z har to barn så finner vi z's etterkommer y som må være i z's høyre subtre. Vi lar så y ta z's posisjon i treet. Resten av z's venstre subtre blir y's nye venstre subtre.
