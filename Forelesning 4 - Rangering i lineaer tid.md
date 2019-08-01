@@ -1,15 +1,15 @@
 # Forelesning 4 - Rangering i lineær tid
 
 #### Sammenligningsbasert sortering har en worst case på 𝝮(nlgn) fordi:
-* Alle elementer er distinkte (ai!= aj)
-* Vi bruker et *desition tree* til å representere sammenligningen mellom elementene som sorteres ved hjelp av en sammenligningsbasert sorteringsalgoritme. Det ser slik ut:
+* Alle elementer er distinkte (ai != aj)
+* Vi bruker et *decition tree* til å representere sammenligningen mellom elementene som sorteres ved hjelp av en sammenligningsbasert sorteringsalgoritme. Det ser slik ut:
 
 <img src="https://i.imgur.com/vAoxfab.png" width="400"/>
 
-Fordi hver av de n! permutasjonene av input dukker opp som noder, har vi n!=<k. Siden et binærtre med høyde h ikke kan ha mer enn 2^h noder, har vi: n! =<k=<2^h, som impliserer h>=lg(n!) -> 𝝮(nlgn).
+Fordi hver av de n! permutasjonene av input dukker opp som noder, har vi n! =< k. Siden et binærtre med høyde h ikke kan ha mer enn 2^h noder, har vi: n! =< k =< 2^h, som impliserer h >= lg(n!) -> 𝝮(nlgn).
 
 En stabil sorteringsalgoritme sorterer to like tall i output-arrayet etter det tallet som dukker opp først i input-arrayet.
-Eksempel: 2i:2:j => <2i,2j>
+Eksempel: 2i:2:j --> <2i,2j>
 
 #### Counting sort
 Går ut i fra at input er heltall i et lite område.
@@ -32,6 +32,6 @@ Her kan vi faktisk oppnå lineær kjøretid som average case, om vi går ut i fr
 
 ### Selektering i lineær tid
 #### Randomized SELECT
-Som Randomized-Quicksort bruker algoritmen Randomized-partition, men i motsetning til Randomized-Quicksort som prosesserer begge sider av pivot, jobber Randomized-SELECT kun på en side. Denne forskjellen spiller en rolle på kjøretiden (QC AC: Th(nlgn)). Randomized-SELECT har en lineær kjøretid om vi har distinkte elementer. Worst case er Th(n^2) og vi oppnår dette om vi er uheldig med pivot-elementet vi partisjonerer rundt.
+Som Randomized-Quicksort bruker algoritmen Randomized-partition, men i motsetning til Randomized-Quicksort som prosesserer begge sider av pivot, jobber Randomized-SELECT kun på en side. Denne forskjellen spiller en rolle på kjøretiden (R-QS AC: Th(nlgn)). Randomized-SELECT har en lineær kjøretid om vi har distinkte elementer. Worst case er Th(n^2) og vi oppnår dette om vi er uheldig med pivot-elementet vi partisjonerer rundt.
 #### SELECT
 Her tar vi inn pivot som input og kan dermed garanterere en god partisjonering. Worst case O(n). 
