@@ -1,6 +1,6 @@
 # Forelesning 7 - Grådighet
 #### Grådige algoritmer
-Av og til er Dynamisk programmering litt overkill når det kommer til optimaliseringsproblemer, ettersom vi ikke alltid trenger å gå igjennom alle stegene som igjen inneholder et sett med valg for hvert steg. En grådig algoritme tar et valg ut i fra det som virker best der og da. Med andre or: Tar et lokalt optimalt valg i håp om at det vil føre til en globalt optimal løsning. Dette skjer ikke alltid, men det skjer ofte. Grådig valg + optimal substruktur = optimal løsning. 
+Av og til er Dynamisk programmering litt overkill når det kommer til optimaliseringsproblemer, ettersom vi ikke alltid trenger å gå igjennom alle stegene som igjen inneholder et sett med valg for hvert steg. En grådig algoritme tar et valg ut i fra det som virker best der og da. Med andre ord: Tar et lokalt optimalt valg i håp om at det vil føre til en globalt optimal løsning. Dette skjer ikke alltid, men det skjer ofte. Grådig valg + optimal substruktur = optimal løsning. 
 
 #### Grådighetsegenskapen
 Vi kan sette sammen en global optimal løsning ved å ta lokale, optimale valg.
