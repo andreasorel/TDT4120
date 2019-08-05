@@ -88,6 +88,7 @@ Tar O(h) tid der h=høyden på treet.
 
 #### Insetting og sletting
 * TREE-INSERT
+    
 * TREE-DELETE
     * 3 alternativer
         * Hvis z ikke har noen barn så fjerner vi noden ved å endre foreldrenoden til å erstatte z med NIL som sitt barn.
